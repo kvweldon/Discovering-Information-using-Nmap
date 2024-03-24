@@ -21,4 +21,9 @@ I will use Nmap to discover active systems, open ports, identify services and de
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8c0907dc-6fc7-4ae5-a150-ff9f78a0e78c)
 
+Did not screenshot .nmap output file on purpose. 
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/e1b0bcaf-df3f-4967-a4ad-22310d64c9b1)
+
+
 
