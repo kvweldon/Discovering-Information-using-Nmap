@@ -57,7 +57,7 @@ Next I identified the operating systems of the target systems and caputred the s
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/2878dc91-c5c0-4856-af87-4475342ed21c)
 
-l
+I then ran a "default" script scan on the targeted systems with the command "nmap 203.0.113.1,225,227-229,231 -sC -oN client_scriptscan.nmap". This scan discovered several important factors showing the systems are vulnerable including duplicate SSH host keys(225/227/228), alternate DNS names(229/231) and supported SMTP commands(1/225/228). Additionally, several systems are hosting websites which be explored in later labs. 
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/b8f071a5-1089-4061-a4e3-f080371a8ca1)
 
@@ -78,6 +78,8 @@ l
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/84ec8c3d-6005-486c-b233-2603a4c864f3)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/4f6c3330-9299-4eb4-9c40-868bc0f0f17a)
+
+AA
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8caa739a-e494-4e10-bb82-6b7457b8d0be)
 
