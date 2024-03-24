@@ -25,16 +25,19 @@ Next I ran a SYN scan of the top 100 common ports and captured the output in all
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/9d161aa9-441a-4b78-80d5-b044329c2204)
 
-
+Below, the "ls -l" command is used to list the files of the two previous scans. There are three cleint_scan1 files, normal output, grepable optimized version, and an XML format due to the '-oA' flag which utilizes all available formats to create files.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/6d213558-b371-4116-80fb-4f59e09500b2)
 
-
-Did not screenshot .nmap output file on purpose. 
+I then used the "cat client_scan1.gnmap" command to view the output of the grepable file. This file will be used to search for various key factors as grepable files are typically easier to search through and present the information in a more efficient manner.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/e1b0bcaf-df3f-4967-a4ad-22310d64c9b1)
 
+Next, I located the hosts with open ports, highlighted in red, with the command "cat client_scan1.gnmap | grep open". There are several Border Gateway Protocol, BGP, supporting routers in the subnet which are not of interest currently. I will perform a scan to remove them and display information that is more relevant to my goal.
+
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/942573fc-af9d-4a52-be06-5da5b0ef7a0b)
+
+Here I use the command "client_scan1.gnmap | grep -v bgp | grep open" to remove the BGP ports and then refined my search further with "cat client_scan1.gnmap | grep -v bgp | grep '80/open\|443/open'". This last scan highlights the systems that are likely hosting websites or web interfaces which I will explore in greater detail in a future lab.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/78773c05-d2df-477a-9c39-321eb620d776)
 
