@@ -41,7 +41,7 @@ Here I use the command "client_scan1.gnmap | grep -v bgp | grep open" to remove 
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/78773c05-d2df-477a-9c39-321eb620d776)
 
-After identifying the systems I would like to investigate further, I performed the scan "nmap 203.0.113.1,225,227-229,231 -F -sS -sV -oN client_versions.nmap". This ran a version scan on the top 100 ports against the previously highlighted systems likely hosting websites and saved the output to the file client_versions.nmap. 
+After identifying the systems I would like to investigate further, I performed the scan "nmap 203.0.113.1,225,227-229,231 -F -sS -sV -oN client_versions.nmap". This ran a version scan on the top 100 ports(-F) against the previously highlighted systems likely hosting websites and saved the output to the file client_versions.nmap. This scan shows the targeted systems are running web services, secure shell, DNS and multiple email servers as well as an insecure version of Debian, Debian 5.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8a41f102-f3b7-4680-9070-32df37d2938f)
 
@@ -49,11 +49,15 @@ After identifying the systems I would like to investigate further, I performed t
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/5ecf4e3c-7de8-491c-a284-22a7ad8b55cc)
 
+Next I identified the operating systems of the target systems and caputred the scan to the file client_OSes.nmap using the scan "nmap 203.0.113.1,225,227-229,231 -F -sS -O -oN client_OSes.nmap". The scan reveals that the systems are running Linux between versions 4.15-5.6.
+
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/fafb8787-0272-4b45-9d00-a4e01231e16e)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/eca9e7f6-3c86-430f-9c35-197a7ef3789e)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/2878dc91-c5c0-4856-af87-4475342ed21c)
+
+l
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/b8f071a5-1089-4061-a4e3-f080371a8ca1)
 
