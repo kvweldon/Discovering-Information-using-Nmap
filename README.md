@@ -1,13 +1,17 @@
 # Discovering-Information-using-Nmap
 Utilizing Kali Linux 2022.2 to further the discovery of information about the client's network using Nmap.
 <h1>Phase 3</h1>
-I will use Nmap to discover active systems, open ports, identify services and determine operating systems, as part of the Pentest for structureality.
+I will use Nmap to discover active systems, open ports, identify services and determine operating systems, on the 203.0.113.0/24 subnet as part of the Pentest for structureality.
 
 **<p style="font-size: 15px;">Step 1: Discovery using Nmap.</p>**
+
+I started my discovery by elevating the termnial privileges using "sudo su" to ensure I had access to all of the features and capabilites of Nmap. I also input "nmap" to read through some of the syntax in Nmap as a refresher. 
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/29850569-934e-49ab-9159-2ecff52c738a)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/d80dd45e-fd40-453b-bf91-c96e079d546f)
+
+I ran a ping sweep of the network to see which systems would respond to the discovery. I was able to discover a number of hosts on the subnet.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/e8c5a43a-3556-4bf8-b79a-7f7a984a94fb)
 
