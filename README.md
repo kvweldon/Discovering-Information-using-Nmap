@@ -47,6 +47,7 @@ Did not screenshot .nmap output file on purpose.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/42dc43c1-0121-42a9-bdc1-7238eb4c4494)
 
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/011a6efe-3fda-4703-afcc-1524191c770b)
 
 
 
