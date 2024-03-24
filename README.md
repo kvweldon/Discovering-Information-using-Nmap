@@ -35,3 +35,14 @@ Did not screenshot .nmap output file on purpose.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/5ecf4e3c-7de8-491c-a284-22a7ad8b55cc)
 
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/fafb8787-0272-4b45-9d00-a4e01231e16e)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/eca9e7f6-3c86-430f-9c35-197a7ef3789e)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/2878dc91-c5c0-4856-af87-4475342ed21c)
+
+
+
+
+
+
