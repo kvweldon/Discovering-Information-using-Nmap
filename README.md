@@ -65,6 +65,12 @@ Did not screenshot .nmap output file on purpose.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/f0a0520a-8c87-4b5a-951f-1dc2c45e22bd)
 
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/2250209c-5a92-4c9d-9b44-0344f3e35d54)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/cb7a9b4a-cab2-426a-8724-8432ebdfdd5f)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/6ccbd6bf-c9b4-419b-90bd-fb17603654aa)
+
 
 
 
