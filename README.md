@@ -25,7 +25,10 @@ Next I ran a SYN scan of the top 100 common ports and captured the output in all
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/9d161aa9-441a-4b78-80d5-b044329c2204)
 
-![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8c0907dc-6fc7-4ae5-a150-ff9f78a0e78c)
+
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/6d213558-b371-4116-80fb-4f59e09500b2)
+
 
 Did not screenshot .nmap output file on purpose. 
 
