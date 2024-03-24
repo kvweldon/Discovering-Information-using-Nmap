@@ -1,7 +1,6 @@
 # Discovering-Information-using-Nmap
-Utilizing Kali Linux 2022.2 to further the discovery of information about the client's network using Nmap.
+Utilizing Nmap in Kali Linux 2022.2 to further the discovery of active systems, open ports, services and operating systems on the 203.0.113.0/24 subnet as part of the Pentest for Structureality.
 <h1>Phase 3</h1>
-I will use Nmap to discover active systems, open ports, identify services and determine operating systems, on the 203.0.113.0/24 subnet as part of the Pentest for structureality.
 
 **<p style="font-size: 15px;">Step 1: Discovery using Nmap.</p>**
 
