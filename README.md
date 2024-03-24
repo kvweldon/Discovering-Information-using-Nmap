@@ -41,6 +41,8 @@ Here I use the command "client_scan1.gnmap | grep -v bgp | grep open" to remove 
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/78773c05-d2df-477a-9c39-321eb620d776)
 
+After identifying the systems I would like to investigate further, I performed the scan "nmap 203.0.113.1,225,227-229,231 -F -sS -sV -oN client_versions.nmap". This ran a version scan on the top 100 ports against the previously highlighted systems likely hosting websites and saved the output to the file client_versions.nmap. 
+
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8a41f102-f3b7-4680-9070-32df37d2938f)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/e18500cc-36aa-4954-ba70-ccee72a0066b)
