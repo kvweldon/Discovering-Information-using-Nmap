@@ -79,17 +79,23 @@ I then ran a "default" script scan on the targeted systems with the command "nma
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/4f6c3330-9299-4eb4-9c40-868bc0f0f17a)
 
-AA
+Next, I ran a UDP scan on port 53(DNS), with a version scan to increase the chances of getting reliable information, to test the security posture of the DNS services running on the network. The scan is "nmap 203.0.113.1,225,227-229,231 -p 53 -sU -sV -oN client_UDPscan.nmap".
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8caa739a-e494-4e10-bb82-6b7457b8d0be)
+
+I then ran a very aggressive scan on the network using "nmap 203.0.113.1,225,227-229,231 -F -sS -T5 -oN client_T5scan.nmap".
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/f0a0520a-8c87-4b5a-951f-1dc2c45e22bd)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/2250209c-5a92-4c9d-9b44-0344f3e35d54)
 
+Below shows the _A option used to scan the clients FDQN. The scan "nmap www.structureality.com -A -oN client_Ascan.nmap" will run a script scan, traceroute, OS and version scan.
+
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/cb7a9b4a-cab2-426a-8724-8432ebdfdd5f)
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/6ccbd6bf-c9b4-419b-90bd-fb17603654aa)
+
+Finally, I ran "ls -l" to view all of the files created from the output of the scans I ran. This phase revealed this subnet for Structureality has several vulnerabilities which I will look to exploit in future labs.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/403e2330-b263-4cd4-8a17-dbd78aa0e455)
 
