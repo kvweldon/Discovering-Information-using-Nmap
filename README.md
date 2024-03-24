@@ -49,6 +49,23 @@ Did not screenshot .nmap output file on purpose.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/011a6efe-3fda-4703-afcc-1524191c770b)
 
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/b5909d2f-208b-49c5-b3b5-87ce48649212)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/593a5ac5-86e5-4ac0-91a5-d38323408957)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/1fcc54b7-e21c-48d1-820f-2e2873b87fc9)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/0d85d394-44c0-4f4f-915b-31aa53088a96)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/84ec8c3d-6005-486c-b233-2603a4c864f3)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/4f6c3330-9299-4eb4-9c40-868bc0f0f17a)
+
+![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/8caa739a-e494-4e10-bb82-6b7457b8d0be)
+
+
+
+
 
 
 
