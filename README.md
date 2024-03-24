@@ -11,9 +11,11 @@ I started my discovery by elevating the termnial privileges using "sudo su" to e
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/d80dd45e-fd40-453b-bf91-c96e079d546f)
 
-I ran a ping sweep of the network to see which systems would respond to the discovery. I was able to discover a number of hosts on the subnet.
+I ran a ping sweep of the network to see which systems would respond to the discovery and saved it to the file, client_pingsweep.nmap, using "203.0.113.0/24 -sn -oN client_pingsweep.nmap". I was able to discover a number of hosts on the subnet.
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/e8c5a43a-3556-4bf8-b79a-7f7a984a94fb)
+
+Next I ran a SYN scan of the top 100 common ports and captured the output in all available formats to a file with the basename client_scan1 using "nmap 203.0.113.0/24 -F -sS -oA client_scan1". The SYN scan(-sS) typically has the best chance of finding open ports because it simulates the initial communication attempt from a valid client.   
 
 ![image](https://github.com/kvweldon/Discovering-Information-using-Nmap/assets/141193154/57ab8a64-e479-4aec-b8c3-cf5ecd0d451f)
 
